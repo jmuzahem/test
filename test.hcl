@@ -14,3 +14,5 @@ resource "random_pet" "test" {}
 output "pet_name" {
   value = random_pet.test.id
 }
+
+resource "random_pet" "test1" {}

@@ -16,3 +16,5 @@ output "pet_name" {
 }
 
 resource "random_pet" "test1" {}
+
+resource "random_pet" "test1" {}
